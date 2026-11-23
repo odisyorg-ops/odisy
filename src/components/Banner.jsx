@@ -136,7 +136,7 @@ export const ServiceTickerPill = ({ tags = DEFAULT_TAGS }) => (
 const Banner = ({
   tags = DEFAULT_TAGS,
   rotatingWords = ROTATING_WORDS,
-  whatsappNumber = "1234567890",
+  whatsappNumber = "8801622214734",
   whatsappMessage = "Hi! I'd love to discuss a project with you.",
   ctaLabel = "let's talk...",
 }) => {
@@ -144,7 +144,7 @@ const Banner = ({
     <section 
       className="relative flex w-full flex-col justify-between overflow-hidden bg-white text-[#111111] font-['Comfortaa']"
       style={{
-        minHeight: "100dvh",
+        minHeight: "100vh",
         paddingTop: "clamp(6rem, 15vh, 10rem)",
       }}
     >

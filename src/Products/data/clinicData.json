@@ -1,0 +1,234 @@
+{
+  "brand": {
+    "name": "ODISY",
+    "suite": "Clinic Suite",
+    "badge": "ODISY Clinic Management OS"
+  },
+  "user": {
+    "name": "Dr. Spider",
+    "role": "Lead Physician",
+    "avatar": "https://img.daisyui.com/images/profile/demo/spiderperson@192.webp"
+  },
+  "navigation": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "href": "#overview",
+      "icon": "Home",
+      "active": true
+    },
+    {
+      "id": "patients",
+      "label": "Patients",
+      "href": "#patients",
+      "icon": "Users",
+      "active": false
+    },
+    {
+      "id": "diagnostics",
+      "label": "Diagnostics",
+      "href": "#diagnostics",
+      "icon": "Activity",
+      "active": false
+    },
+    {
+      "id": "appointments",
+      "label": "Appointments",
+      "href": "#appointments",
+      "icon": "Calendar",
+      "active": false
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "href": "#settings",
+      "icon": "Settings",
+      "active": false
+    }
+  ],
+  "banner": {
+    "title": "Outpatient Clinic Overview",
+    "subtitle": "42 appointments scheduled today across 6 consultation rooms. Average patient wait time is currently 11 minutes."
+  },
+  "facilityCapacity": {
+    "title": "Bed Availability",
+    "subtitle": "Live inpatient capacity",
+    "openBadge": "23 Open",
+    "totalCapacityText": "Total Capacity: 65 Beds",
+    "occupancyRateText": "64.6% Occupied",
+    "items": [
+      {
+        "label": "Private Cabins",
+        "available": 6,
+        "total": 15,
+        "color": "bg-[#536878]"
+      },
+      {
+        "label": "General Wards",
+        "available": 14,
+        "total": 40,
+        "color": "bg-emerald-600"
+      },
+      {
+        "label": "Emergency & ICU Beds",
+        "available": 3,
+        "total": 10,
+        "color": "bg-amber-500"
+      }
+    ]
+  },
+  "doctorsOnDuty": {
+    "title": "Doctors on Duty",
+    "subtitle": "Today's active roster",
+    "doctors": [
+      {
+        "name": "Dr. Farhana Rahman",
+        "specialty": "Cardiology",
+        "room": "Room 204",
+        "status": "In Session",
+        "avatar": "https://img.daisyui.com/images/profile/demo/2@94.webp"
+      },
+      {
+        "name": "Dr. Tanvir Ahmed",
+        "specialty": "Internal Medicine",
+        "room": "Room 102",
+        "status": "Available",
+        "avatar": "https://img.daisyui.com/images/profile/demo/3@94.webp"
+      },
+      {
+        "name": "Dr. Nusrat Jahan",
+        "specialty": "Pediatrics",
+        "room": "Room 108",
+        "status": "Available",
+        "avatar": "https://img.daisyui.com/images/profile/demo/4@94.webp"
+      },
+      {
+        "name": "Dr. Mahfuzul Karim",
+        "specialty": "Orthopedics",
+        "room": "Room 301",
+        "status": "On Break",
+        "avatar": "https://img.daisyui.com/images/profile/demo/5@94.webp"
+      }
+    ]
+  },
+  
+
+  "labDiagnostics": {
+    "title": "Lab Diagnostics",
+    "badgeText": "4 Reports",
+    "ctaLabel": "+ New Order",
+    "reports": [
+      {
+        "id": "LAB-104",
+        "patientName": "Farida Yasmin",
+        "testName": "CMP & Lipid Profile",
+        "orderingDoctor": "Dr. Farhana Rahman",
+        "department": "Cardiology",
+        "priority": "STAT",
+        "status": "Critical Alert",
+        "timestamp": "12m ago"
+      },
+      {
+        "id": "LAB-105",
+        "patientName": "Shahed Ahmed",
+        "testName": "RT-PCR Respiratory Panel",
+        "orderingDoctor": "Dr. Tanvir Ahmed",
+        "department": "Internal Medicine",
+        "priority": "Urgent",
+        "status": "Results Ready",
+        "timestamp": "34m ago"
+      },
+      {
+        "id": "LAB-106",
+        "patientName": "Lamia Morshed",
+        "testName": "TSH & Free T4 Panel",
+        "orderingDoctor": "Dr. Nusrat Jahan",
+        "department": "Pediatrics",
+        "priority": "Routine",
+        "status": "Processing",
+        "timestamp": "1h ago"
+      },
+      {
+        "id": "LAB-107",
+        "patientName": "Monir Hossain",
+        "testName": "MRI Brain Contrast",
+        "orderingDoctor": "Dr. Mahfuzul Karim",
+        "department": "Neurology",
+        "priority": "STAT",
+        "status": "Critical Alert",
+        "timestamp": "2h ago"
+      }
+    ]
+  },
+
+  "patientQueue": {
+    "title": "Patient Queue",
+    "subtitle": "Live OPD token tracker",
+    "waitingBadge": "12 Waiting",
+    "queue": [
+      {
+        "token": "A-104",
+        "name": "Rashedul Islam",
+        "doctor": "Dr. Farhana • Rm 204",
+        "wait": "Now Serving",
+        "active": true
+      },
+      {
+        "token": "A-105",
+        "name": "Sadia Chowdhury",
+        "doctor": "Dr. Tanvir • Rm 102",
+        "wait": "~8 mins",
+        "active": false
+      },
+      {
+        "token": "A-106",
+        "name": "Kamrul Hasan",
+        "doctor": "Dr. Nusrat • Rm 108",
+        "wait": "~15 mins",
+        "active": false
+      },
+      {
+        "token": "A-107",
+        "name": "Nayeem Siddiqui",
+        "doctor": "Dr. Farhana • Rm 204",
+        "wait": "~24 mins",
+        "active": false
+      }
+    ]
+  },
+  "patientDirectory": {
+    "title": "Today's Patient Queue",
+    "subtitle": "Live outpatient check-ins, room assignments, and consultation status",
+    "ctaLabel": "+ Register Walk-In",
+    "patients": [
+      {
+        "name": "Hart Hagerty",
+        "location": "OPD • Room 104",
+        "consultationType": "General Consultation",
+        "status": "Checked In",
+        "avatar": "https://img.daisyui.com/images/profile/demo/2@94.webp"
+      },
+      {
+        "name": "Brice Swyre",
+        "location": "Lab • Wing B",
+        "consultationType": "Blood Panel & Diagnostics",
+        "status": "In Progress",
+        "avatar": "https://img.daisyui.com/images/profile/demo/3@94.webp"
+      },
+      {
+        "name": "Marjy Ferencz",
+        "location": "Pediatrics • Room 202",
+        "consultationType": "Routine Immunization",
+        "status": "Waiting",
+        "avatar": "https://img.daisyui.com/images/profile/demo/4@94.webp"
+      },
+      {
+        "name": "Yancy Tear",
+        "location": "Dental • Suite 3",
+        "consultationType": "Orthodontic Follow-up",
+        "status": "Completed",
+        "avatar": "https://img.daisyui.com/images/profile/demo/5@94.webp"
+      }
+    ]
+  }
+}

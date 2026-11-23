@@ -11,6 +11,8 @@ import ServicesSection from './components/ServicesSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import BenefitsSection from './components/BenefitsSection'
 import FAQSection from './components/FAQSection'
+import MedDashboard from './Products/MedDashboard'
+import OurProducts from './components/OurProducts'
 
 
 const AGENCY_CONFIG = {
@@ -44,13 +46,16 @@ function App() {
         <main className='relative z-10 bg-white'>
           <ClientMarquee />
           <ServicesSection />
+          <OurProducts></OurProducts>
           <BenefitsSection></BenefitsSection>
           <TestimonialsSection></TestimonialsSection>
           <FAQSection></FAQSection>
-          <CallToAction phoneNumber={AGENCY_CONFIG.whatsappNumber} />
+          <CallToAction phoneNumber={AGENCY_CONFIG.whatsappNumber} /> // contact
         </main>
 
         <Footer />
+
+        <MedDashboard></MedDashboard>
 
         
 
