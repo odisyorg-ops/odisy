@@ -46,7 +46,7 @@ function App() {
         <main className='relative z-10 bg-white'>
           <ClientMarquee />
           <ServicesSection />
-          <OurProducts></OurProducts>
+          {/* <OurProducts></OurProducts> */}
           <BenefitsSection></BenefitsSection>
           <TestimonialsSection></TestimonialsSection>
           <FAQSection></FAQSection>
@@ -55,7 +55,7 @@ function App() {
 
         <Footer />
 
-        <MedDashboard></MedDashboard>
+        {/* <MedDashboard></MedDashboard> */}
 
         
 
